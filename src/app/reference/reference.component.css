@@ -1,0 +1,101 @@
+.reference-frame-container {
+  display: flex;
+  flex-direction:row;
+  border:solid 1px white ;
+  position: relative;
+  width: 63%;
+  height: 20%;
+  margin-left: 18%;
+  box-shadow: 0 0 15px gray;
+}
+
+.text-ceo-container{
+  display: flex;
+  position: relative;
+  margin-left: 0px;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 33%;
+  height: 100%;
+  background-color:white;
+}
+
+.img-container{
+  position: absolute;
+   width:40%;
+   top:10%;
+   left:25%;
+}
+
+img{
+  width: 100%;
+}
+
+.text-font-name{
+  color:black;
+  font-size: 15px;
+  position: relative;
+  top:70%;
+  left:27%;
+}
+  .text-font-position{
+    color: gray;
+    font-size: 10px;
+    position: absolute;
+    top:77%;
+    left: 27%;
+
+}
+
+.text-white-container{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 65%;
+  height: 100%;
+  background-color: white;
+}
+
+
+.text-font-des{
+  font-size: 12px;
+  font-color:black;
+  position: relative;
+  left:0;
+  top:18%;
+}
+
+.button-container{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  top:80%;
+  left:50%;
+  position: absolute;
+  width: 22%;
+  height: 3%;
+  column-gap: 0.2rem;
+
+}
+
+.line-btn {
+  width:10px;
+  height: 4px;
+  background-color: #ccc;
+  border: none;
+
+}
+
+.active-btn {
+  width:10px;
+  height: 4px;
+  background-color: green;
+  border: none;
+  padding: auto;
+}
+
+.line-btn:hover {
+  background-color:green;
+}
+
+

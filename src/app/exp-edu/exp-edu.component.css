@@ -1,0 +1,91 @@
+
+
+.text-all-frame-container {
+  display: flex;
+  flex-direction:column;
+  border:solid 1px white ;
+  position: relative;
+  width: 63%;
+  height: 20%;
+  margin-left: 18%;
+  box-shadow: 0 0 15px gray;
+}
+
+.text-frame-container {
+  display: flex;
+  flex-direction:row;
+  border:solid 1px white ;
+  position: relative;
+  width: 63%;
+  height: 20%;
+  margin-left: 18%;
+  box-shadow: 0 0 15px gray;
+}
+
+.text-green-container{
+  display: flex;
+  margin-left: 0px;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 30%;
+  height: 100%;
+  background-color: green;
+}
+
+.text-font-date{
+  color: white;
+  font-size: 10px;
+  position: relative;
+  left:20%;
+  top:30%;
+}
+  .text-font-brief{
+    color: white;
+    font-size: 20px;
+    position: relative;
+    left:20%;
+    top:35%
+
+}
+
+.text-white-container{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 65%;
+  height: 100%;
+  background-color: white;
+}
+
+.text-font-des-title{
+  font-size: 15px;
+  font-color:black;
+  position: relative;
+  left:4%;
+  top:15%;
+}
+
+.text-font-des{
+  font-size: 12px;
+  font-color:black;
+  position: relative;
+  left:4%;
+  top:18%;
+}
+
+.text-font-des-major{
+  font-size: 8px;
+  font-color:black;
+  font-weight: bold;
+  position: relative;
+  left:4%;
+  top:15%;
+}
+
+.title-font{
+  text-align: center;
+  font-style: normal;
+  font-size: medium;
+  font-weight: 700;
+  font: bold;
+}
